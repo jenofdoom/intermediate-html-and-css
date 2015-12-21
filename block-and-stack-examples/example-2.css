@@ -1,0 +1,53 @@
+div {
+    margin:1em;
+    background-color:lavender;
+    width:200px;
+    height:200px;
+}
+
+div.one {
+    z-index:1;
+    /*position: relative;*/
+}
+
+div.two {
+    position: relative;
+    width:250px;
+    background-color: lightgreen;
+    top:-50px;
+}
+
+
+
+.container {
+    margin-left:1em;
+    position: relative;
+}
+
+div.red,
+div.blue,
+div.green {
+    position: absolute;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    display: inline-block;
+    color:transparent;
+    margin:0;
+    left:0;
+}
+
+div.red {
+    z-index:1;
+    background-color:red;
+}
+
+div.blue {
+    z-index:2;
+    background-color:blue;
+}
+
+div.green {
+    z-index: 3;
+    background-color:green;
+}

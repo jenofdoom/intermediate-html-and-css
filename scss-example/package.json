@@ -1,0 +1,13 @@
+{
+  "name": "our-very-own-scss-compiler",
+  "version": "1.0.0",
+  "description": "Turns .scss files into .css files",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-sass": "^2.0.1"
+  }
+}
