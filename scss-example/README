@@ -1,6 +1,13 @@
+https://github.com/jenofdoom/intermediate-html-and-css.git
+cd intermediate-html-and-css
+cd scss-example
+
 sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
 sudo npm install -g gulp
 sudo chown -R $(whoami) ~/.npm
+npm install
+
+gulp
